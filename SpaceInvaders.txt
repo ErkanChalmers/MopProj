@@ -1,0 +1,1 @@
+./Debug/startup.c.o ./Debug/delays.c.o ./Debug/graphic_display_controller_interface.c.o ./Debug/unit_controller.c.o

@@ -30,4 +30,7 @@
 #define LCD_DISP_START 0xC0
 #define LCD_BUSY 0x80
 
+typedef unsigned char uint8_t;
+#define MAX_POINTS 20
+
 #endif

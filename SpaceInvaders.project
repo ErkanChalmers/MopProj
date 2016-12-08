@@ -124,6 +124,8 @@ monitor restart</PostConnectCommands>
     <File Name="delays.c"/>
     <File Name="graphic_display_controller_interface.c"/>
     <File Name="graphic_display_controller_interface.h"/>
+    <File Name="unit_controller.c"/>
+    <File Name="unit_controller.h"/>
   </VirtualDirectory>
   <VirtualDirectory Name="resources">
     <File Name="md407-ram.x"/>

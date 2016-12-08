@@ -6,8 +6,8 @@
 #include "defines.h"
 #include "graphic_display_controller_interface.h"
 #define SIMULATOR 2
-#define MAX_POINTS 20
-typedef unsigned char uint8_t;
+
+
 
 
 void startup(void) __attribute__((naked)) __attribute__((section (".start_section")) );
@@ -44,12 +44,12 @@ void main(void)
 
 	
 	
-	POBJECT b = &ball;
-	b -> set_speed(b,4,1);
+	//POBJECT b = &ball;
+	//b -> set_speed(b,4,1);
 	
 	while(1)
 	{
-		b -> move(b);
+		//b -> move(b);
 		delay_milli(1);
 	}
 	

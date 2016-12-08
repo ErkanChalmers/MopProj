@@ -1,5 +1,5 @@
 #include "delays.h"
-
+#include "defines.h"
 typedef struct tPoint {
 	unsigned char x;
 	unsigned char y;
